@@ -1,55 +1,122 @@
 p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
+    margin: 20px 15px;
+    text-align: justify;
 }
 
 ul {
     list-style-type: none;
+    font-size: 18px;
     margin: 0;
     padding: 0;
   }
 
+nav {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
 nav li {
     float: left;
+    width: auto;
   }
   
 nav a {
     display: block;
-    padding: 8px;
+    padding: 13px;
     background-color: #b76e79;
-  }
-
-h1{
-    font-size: 40px;
-    background-color: antiquewhite;
-  }
-  
-h2 {
-    color: #B7B09C
-  }
-
-h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
-  }
-
-  a:hover {
-    color:black
-  }
-
-.about{
+    letter-spacing: 2px;
     
   }
 
-.work{
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 45px;
+    letter-spacing: 5px;
+    background-color: antiquewhite;
+    text-align: left;
+  }
+  
+h2 {
+    color: #B7B09C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin: 20px 15px;
+  }
 
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #C1E6D5;
+    padding: 15px;
+  }
+
+img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #382628;
+    border-radius: 2px;
+  }
+
+a:hover {
+    color:black;
+  }
+
+.about{
+    padding: 15px 25px;
+  }
+
+.work{
+    border: 15px solid #629980;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+}
+
+.work-content{
+  text-align: center;
+  display: inline-block;
+  padding: 10px 75px;
 }
 
 .contact{
+    border: 15px solid #B77B82;
+    padding: 40px 0px;
+}
 
+.info{
+  display: inline-block;
+  text-align: justify;
+  border-radius: 3px;
+  background-color: #E6C7C2;
+  margin: 15px 23px;
+}
+
+.social-media {
+  padding: 15px;
+}
+
+.contact li {
+  padding: 15px;
+}
+
+.contact form{
+  padding: 15px;
+  background-color: #E6C7C2;
 }
 
 .about p{
     
+}
+
+footer{
+  padding: 100px;
+  color: antiquewhite;
+  background-color: #785055;
 }
 
 footer p{
